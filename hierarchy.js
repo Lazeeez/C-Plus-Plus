@@ -43,6 +43,7 @@ var hierarchy =
     [ "mst", "d1/d77/structmst.html", null ],
     [ "math::ncr_modulo_p::NCRModuloP", "d6/dc1/classmath_1_1ncr__modulo__p_1_1_n_c_r_modulo_p.html", null ],
     [ "machine_learning::neural_network::NeuralNetwork", "d4/df4/classmachine__learning_1_1neural__network_1_1_neural_network.html", null ],
+    [ "data_structures::linked_list::Node", "d4/d0e/classdata__structures_1_1linked__list_1_1_node.html", null ],
     [ "data_structures::Node", "d9/d49/structdata__structures_1_1_node.html", null ],
     [ "data_structures::tree_234::Node", "dd/d40/classdata__structures_1_1tree__234_1_1_node.html", null ],
     [ "data_structures::trie_using_hashmap::Trie::Node", "d5/d12/structdata__structures_1_1trie__using__hashmap_1_1_trie_1_1_node.html", null ],
@@ -93,5 +94,6 @@ var hierarchy =
       [ "std::is_unsigned< uint256_t >", "df/d99/structstd_1_1is__unsigned_3_01uint256__t_01_4.html", null ]
     ] ],
     [ "uint128_t", "db/d9a/classuint128__t.html", null ],
-    [ "uint256_t", "d1/d83/classuint256__t.html", null ]
+    [ "uint256_t", "d1/d83/classuint256__t.html", null ],
+    [ "probability::windowed_median::WindowedMedian", "df/d34/classprobability_1_1windowed__median_1_1_windowed_median.html", null ]
 ];

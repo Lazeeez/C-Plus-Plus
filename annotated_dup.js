@@ -9,7 +9,8 @@ var annotated_dup =
     [ "data_structures", "d5/d3c/namespacedata__structures.html", [
       [ "linked_list", null, [
         [ "link", "de/d9d/classdata__structures_1_1linked__list_1_1link.html", "de/d9d/classdata__structures_1_1linked__list_1_1link" ],
-        [ "list", "d1/def/classdata__structures_1_1linked__list_1_1list.html", "d1/def/classdata__structures_1_1linked__list_1_1list" ]
+        [ "list", "d1/def/classdata__structures_1_1linked__list_1_1list.html", "d1/def/classdata__structures_1_1linked__list_1_1list" ],
+        [ "Node", "d4/d0e/classdata__structures_1_1linked__list_1_1_node.html", "d4/d0e/classdata__structures_1_1linked__list_1_1_node" ]
       ] ],
       [ "list_array", null, [
         [ "list", "d5/dab/structdata__structures_1_1list__array_1_1list.html", "d5/dab/structdata__structures_1_1list__array_1_1list" ]
@@ -88,6 +89,11 @@ var annotated_dup =
       ] ],
       [ "postfix_expression", null, [
         [ "Stack", "d5/d8a/classothers_1_1postfix__expression_1_1_stack.html", "d5/d8a/classothers_1_1postfix__expression_1_1_stack" ]
+      ] ]
+    ] ],
+    [ "probability", "d4/ded/namespaceprobability.html", [
+      [ "windowed_median", null, [
+        [ "WindowedMedian", "df/d34/classprobability_1_1windowed__median_1_1_windowed_median.html", "df/d34/classprobability_1_1windowed__median_1_1_windowed_median" ]
       ] ]
     ] ],
     [ "quadratic_probing", "d4/dd2/namespacequadratic__probing.html", [
