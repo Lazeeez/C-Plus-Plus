@@ -1,5 +1,6 @@
 var dir_296d53ceaeaa7e099814a6def439fe8a =
 [
+    [ "area.cpp", "dc/d82/area_8cpp.html", "dc/d82/area_8cpp" ],
     [ "armstrong_number.cpp", "d4/d5d/math_2armstrong__number_8cpp.html", "d4/d5d/math_2armstrong__number_8cpp" ],
     [ "binary_exponent.cpp", "de/dcf/binary__exponent_8cpp.html", "de/dcf/binary__exponent_8cpp" ],
     [ "binomial_calculate.cpp", "d8/db1/binomial__calculate_8cpp.html", "d8/db1/binomial__calculate_8cpp" ],
@@ -51,5 +52,6 @@ var dir_296d53ceaeaa7e099814a6def439fe8a =
     [ "string_fibonacci.cpp", "de/d47/string__fibonacci_8cpp.html", "de/d47/string__fibonacci_8cpp" ],
     [ "sum_of_binomial_coefficient.cpp", "d4/d9d/sum__of__binomial__coefficient_8cpp.html", "d4/d9d/sum__of__binomial__coefficient_8cpp" ],
     [ "sum_of_digits.cpp", "d4/d83/sum__of__digits_8cpp.html", "d4/d83/sum__of__digits_8cpp" ],
-    [ "vector_cross_product.cpp", "df/d66/vector__cross__product_8cpp.html", "df/d66/vector__cross__product_8cpp" ]
+    [ "vector_cross_product.cpp", "df/d66/vector__cross__product_8cpp.html", "df/d66/vector__cross__product_8cpp" ],
+    [ "volume.cpp", "da/d39/volume_8cpp.html", "da/d39/volume_8cpp" ]
 ];

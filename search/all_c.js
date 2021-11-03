@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['k_0',['k',['http://en.cppreference.com/w/cpp/numeric/random/negative_binomial_distribution/params.html',0,'std::negative_binomial_distribution']]],
+  ['k_0',['k',['../df/d11/midpoint__integral__method_8cpp.html#ae9f66040f8e0ba73c1c741261c22a52a',1,'numerical_methods::midpoint_rule::k()'],['http://en.cppreference.com/w/cpp/numeric/random/negative_binomial_distribution/params.html',0,'std::negative_binomial_distribution::k()']]],
   ['kadane_1',['kadane',['../d6/d74/namespacekadane.html',1,'']]],
   ['kadane2_2ecpp_2',['kadane2.cpp',['../db/dca/kadane2_8cpp.html',1,'']]],
   ['kadanes3_2ecpp_3',['kadanes3.cpp',['../de/dcd/kadanes3_8cpp.html',1,'']]],
@@ -13,12 +13,13 @@ var searchData=
   ['kilo_10',['kilo',['http://en.cppreference.com/w/cpp/numeric/ratio/ratio.html',0,'std']]],
   ['kmp_11',['kmp',['../d9/d03/namespacestring__search.html#a26a58225ce7d3fa9d4c2f5349a65ed93',1,'string_search']]],
   ['knapsack_12',['Knapsack',['../d7/daf/namespace_knapsack.html',1,'']]],
-  ['knight_5ftour_2ecpp_13',['knight_tour.cpp',['../d1/d2a/knight__tour_8cpp.html',1,'']]],
-  ['knuth_5fb_14',['knuth_b',['http://en.cppreference.com/w/cpp/numeric/random/shuffle_order_engine/shuffle_order_engine.html',0,'std::knuth_b::knuth_b()'],['http://en.cppreference.com/w/cpp/numeric/random/shuffle_order_engine.html',0,'std::knuth_b']]],
-  ['knuth_5fmorris_5fpratt_2ecpp_15',['knuth_morris_pratt.cpp',['../de/d6a/knuth__morris__pratt_8cpp.html',1,'']]],
-  ['kohonen_5fsom_16',['kohonen_som',['../d8/d77/namespacemachine__learning.html#ac43d294e21a0c4fa33c53757df054576',1,'machine_learning']]],
-  ['kohonen_5fsom_5ftopology_2ecpp_17',['kohonen_som_topology.cpp',['../d4/def/kohonen__som__topology_8cpp.html',1,'']]],
-  ['kohonen_5fsom_5ftrace_2ecpp_18',['kohonen_som_trace.cpp',['../d9/d49/kohonen__som__trace_8cpp.html',1,'']]],
-  ['kohonen_5fsom_5ftracer_19',['kohonen_som_tracer',['../d8/d77/namespacemachine__learning.html#a042f435bca0839e721fc1574a61e8da3',1,'machine_learning']]],
-  ['kth_5fancestor_20',['kth_ancestor',['../d1/d51/classrange__queries_1_1heavy__light__decomposition_1_1_tree.html#a8f7bca1746d40f21ad832fcea59aa6c6',1,'range_queries::heavy_light_decomposition::Tree']]]
+  ['knight_5ftour_13',['knight_tour',['../d1/db6/namespaceknight__tour.html',1,'']]],
+  ['knight_5ftour_2ecpp_14',['knight_tour.cpp',['../d1/d2a/knight__tour_8cpp.html',1,'']]],
+  ['knuth_5fb_15',['knuth_b',['http://en.cppreference.com/w/cpp/numeric/random/shuffle_order_engine/shuffle_order_engine.html',0,'std::knuth_b::knuth_b()'],['http://en.cppreference.com/w/cpp/numeric/random/shuffle_order_engine.html',0,'std::knuth_b']]],
+  ['knuth_5fmorris_5fpratt_2ecpp_16',['knuth_morris_pratt.cpp',['../de/d6a/knuth__morris__pratt_8cpp.html',1,'']]],
+  ['kohonen_5fsom_17',['kohonen_som',['../d8/d77/namespacemachine__learning.html#ac43d294e21a0c4fa33c53757df054576',1,'machine_learning']]],
+  ['kohonen_5fsom_5ftopology_2ecpp_18',['kohonen_som_topology.cpp',['../d4/def/kohonen__som__topology_8cpp.html',1,'']]],
+  ['kohonen_5fsom_5ftrace_2ecpp_19',['kohonen_som_trace.cpp',['../d9/d49/kohonen__som__trace_8cpp.html',1,'']]],
+  ['kohonen_5fsom_5ftracer_20',['kohonen_som_tracer',['../d8/d77/namespacemachine__learning.html#a042f435bca0839e721fc1574a61e8da3',1,'machine_learning']]],
+  ['kth_5fancestor_21',['kth_ancestor',['../d1/d51/classrange__queries_1_1heavy__light__decomposition_1_1_tree.html#a8f7bca1746d40f21ad832fcea59aa6c6',1,'range_queries::heavy_light_decomposition::Tree']]]
 ];

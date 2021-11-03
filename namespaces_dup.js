@@ -6,6 +6,15 @@ var namespaces_dup =
     [ "atbash", "de/db3/namespaceatbash.html", null ],
     [ "aystar_search", "db/ddc/namespaceaystar__search.html", null ],
     [ "backtracking", "db/dc0/namespacebacktracking.html", [
+      [ "graph_coloring", null, [
+        [ "graphColoring", "d3/d40/graph__coloring_8cpp.html#a40337efc5dad761096489bf2c5b1c80c", null ],
+        [ "isSafe", "d3/d40/graph__coloring_8cpp.html#a976efe049deb042bf1f02612e181ab1d", null ],
+        [ "printSolution", "d3/d40/graph__coloring_8cpp.html#a8c47fa37fb6eeeb781b2ec1b05af6b07", null ]
+      ] ],
+      [ "knight_tour", null, [
+        [ "issafe", "d1/d2a/knight__tour_8cpp.html#af27031fbff093ffd625f64010d98aab2", null ],
+        [ "solve", "d1/d2a/knight__tour_8cpp.html#aaa47356d98676cf5315d978f741e29c9", null ]
+      ] ],
       [ "n_queens", null, [
         [ "isSafe", "d4/d3e/n__queens_8cpp.html#a5730b6683f6adcf5c5ef75cf53dc7160", null ],
         [ "printSolution", "d4/d3e/n__queens_8cpp.html#a40ae0c7fd04eb20e7f3bff13fc6a5808", null ],
@@ -30,18 +39,15 @@ var namespaces_dup =
       [ "subset_sum", null, [
         [ "number_of_subsets", "d2/d5a/subset__sum_8cpp.html#a7cb50d36a59427a33f64a266dac83d99", null ]
       ] ],
+      [ "sudoku_solver", null, [
+        [ "isPossible", "d6/d7b/sudoku__solve_8cpp.html#a07dc6acffd0500de9bdbf16b3ade94b0", null ],
+        [ "printMat", "d6/d7b/sudoku__solve_8cpp.html#ab040a12d7684cd85fb3684f4211ea5ac", null ],
+        [ "solveSudoku", "d6/d7b/sudoku__solve_8cpp.html#ac911c8bca8556206ff64461b2424866b", null ]
+      ] ],
       [ "wildcard_matching", null, [
         [ "dpTable", "dc/d14/wildcard__matching_8cpp.html#a4a5b107f93db24e424b12899fa692c5a", null ]
       ] ],
-      [ "graphColoring", "db/dc0/namespacebacktracking.html#a29360ddb1bad75caa61ec895b6e71986", null ],
-      [ "isPossible", "db/dc0/namespacebacktracking.html#a80af16e57cfb6aaab2bf1da4c4db3308", null ],
-      [ "isSafe", "db/dc0/namespacebacktracking.html#a5a6c3c2b065ea1c07adf2f638f8efc43", null ],
-      [ "issafe", "db/dc0/namespacebacktracking.html#a531de8cb2d4d16ca63353d9c72158257", null ],
-      [ "minimax", "db/dc0/namespacebacktracking.html#a78540bcb5ef3473b2348cbc34748ec50", null ],
-      [ "printMat", "db/dc0/namespacebacktracking.html#ae1a76e21cb3934368d01cea7672d3906", null ],
-      [ "printSolution", "db/dc0/namespacebacktracking.html#a8cfb2d08840766ac4402196079308a36", null ],
-      [ "solve", "db/dc0/namespacebacktracking.html#a932e38e8912742cedf7b5a837168e03a", null ],
-      [ "solveSudoku", "db/dc0/namespacebacktracking.html#a2b98ee79cdbc02ffd7b1f786f9696892", null ]
+      [ "minimax", "db/dc0/namespacebacktracking.html#a78540bcb5ef3473b2348cbc34748ec50", null ]
     ] ],
     [ "base64_encoding", "d9/dc9/namespacebase64__encoding.html", null ],
     [ "bidirectional_dijkstra", "d4/d13/namespacebidirectional__dijkstra.html", null ],
@@ -49,6 +55,7 @@ var namespaces_dup =
     [ "bit_manipulation", "d7/d81/namespacebit__manipulation.html", null ],
     [ "caesar", "dd/d81/namespacecaesar.html", null ],
     [ "ciphers", "d6/d4e/namespaceciphers.html", "d6/d4e/namespaceciphers" ],
+    [ "circular_linked_list", "d4/dcd/namespacecircular__linked__list.html", null ],
     [ "count_of_set_bits", "dd/dae/namespacecount__of__set__bits.html", null ],
     [ "count_of_trailing_ciphers_in_factorial_n", "dc/d2f/namespacecount__of__trailing__ciphers__in__factorial__n.html", null ],
     [ "cut_rod", "d8/d36/namespacecut__rod.html", null ],
@@ -104,6 +111,7 @@ var namespaces_dup =
     [ "geometry", "d5/d5f/namespacegeometry.html", "d5/d5f/namespacegeometry" ],
     [ "gram_schmidt", "d4/d0f/namespacegram__schmidt.html", null ],
     [ "graph", "df/dce/namespacegraph.html", "df/dce/namespacegraph" ],
+    [ "graph_coloring", "d7/d08/namespacegraph__coloring.html", null ],
     [ "hamming_distance", "d4/d1c/namespacehamming__distance.html", null ],
     [ "hashing", "d6/d0c/namespacehashing.html", null ],
     [ "heavy_light_decomposition", "db/d6f/namespaceheavy__light__decomposition.html", null ],
@@ -117,6 +125,7 @@ var namespaces_dup =
     [ "kadane", "d6/d74/namespacekadane.html", null ],
     [ "karatsuba_algorithm", "de/d41/namespacekaratsuba__algorithm.html", null ],
     [ "Knapsack", "d7/daf/namespace_knapsack.html", null ],
+    [ "knight_tour", "d1/db6/namespaceknight__tour.html", null ],
     [ "layers", "d5/d2c/namespacelayers.html", null ],
     [ "linear_algebra", "d3/d78/namespacelinear__algebra.html", null ],
     [ "linear_probing", "d8/d89/namespacelinear__probing.html", "d8/d89/namespacelinear__probing" ],
@@ -138,6 +147,7 @@ var namespaces_dup =
     [ "MD5", "dd/d43/namespace_m_d5.html", null ],
     [ "median_search", "da/dd4/namespacemedian__search.html", null ],
     [ "merge_insertion", "de/d0a/namespacemerge__insertion.html", null ],
+    [ "midpoint_rule", "d9/daa/namespacemidpoint__rule.html", null ],
     [ "mincoins_topdown", "d5/db8/namespacemincoins__topdown.html", null ],
     [ "Minimum", "d4/d12/namespace_minimum.html", null ],
     [ "modular_division", "d1/d64/namespacemodular__division.html", null ],
@@ -149,7 +159,24 @@ var namespaces_dup =
     [ "n_queens_optimized", "d8/d14/namespacen__queens__optimized.html", null ],
     [ "ncr_modulo_p", "d4/db9/namespacencr__modulo__p.html", null ],
     [ "neural_network", "d0/d2e/namespaceneural__network.html", null ],
-    [ "numerical_methods", "d1/de0/namespacenumerical__methods.html", null ],
+    [ "numerical_methods", "d1/de0/namespacenumerical__methods.html", [
+      [ "false_position", null, [
+        [ "eq", "dd/d29/false__position_8cpp.html#a85a6ec58b5064d63d4f0df3854496713", null ],
+        [ "printRoot", "dd/d29/false__position_8cpp.html#a85cb7bfb90abc898e042d624372c5345", null ],
+        [ "regula_falsi", "dd/d29/false__position_8cpp.html#a7d69b49dc37da1c02b3ab8c7fe783494", null ]
+      ] ],
+      [ "midpoint_rule", null, [
+        [ "f", "df/d11/midpoint__integral__method_8cpp.html#a7ee8e824ef3e138a9a21883b26d97226", null ],
+        [ "g", "df/d11/midpoint__integral__method_8cpp.html#ae682ee71af44b1e9e884849cc6a6b040", null ],
+        [ "k", "df/d11/midpoint__integral__method_8cpp.html#ae9f66040f8e0ba73c1c741261c22a52a", null ],
+        [ "l", "df/d11/midpoint__integral__method_8cpp.html#ad53616fb4fa6880ae876bcba53365c51", null ],
+        [ "midpoint", "df/d11/midpoint__integral__method_8cpp.html#a7072493d1f0f8a91b2a71d4cc456c09c", null ]
+      ] ],
+      [ "runge_kutta", null, [
+        [ "rungeKutta", "d1/da6/rungekutta_8cpp.html#a7b9f40c7b5e9749cc550f19be3dc8856", null ]
+      ] ],
+      [ "FastFourierTransform", "d1/de0/namespacenumerical__methods.html#a158fd271b9a53e8f3f60b08b18857150", null ]
+    ] ],
     [ "operations_on_datastructures", "da/d6d/namespaceoperations__on__datastructures.html", "da/d6d/namespaceoperations__on__datastructures" ],
     [ "others", "d0/d6f/namespaceothers.html", "d0/d6f/namespaceothers" ],
     [ "palindrome_partitioning", "d5/d89/namespacepalindrome__partitioning.html", null ],
@@ -267,6 +294,7 @@ var namespaces_dup =
     [ "subarray_sum", "df/d74/namespacesubarray__sum.html", null ],
     [ "sublist_search", "d9/def/namespacesublist__search.html", null ],
     [ "Subsets", "de/d95/namespace_subsets.html", null ],
+    [ "sudoku_solver", "d8/d9f/namespacesudoku__solver.html", null ],
     [ "tests", "d9/df4/namespacetests.html", [
       [ "test1", "d9/df4/namespacetests.html#a167c24bd817469ae47358d12e034f2d5", null ],
       [ "test2", "d9/df4/namespacetests.html#abdd77344d4af8fd56d14a5cabbf2f669", null ],
