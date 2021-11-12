@@ -25,9 +25,6 @@
 #include <vector>    /// for std::vector
 #include <cassert>   /// for assert
 
-// Number of vertices in the graph
-#define V 5
-
 /******************************************************************************
  * @namespace backtracking.
  * @brief Backtracking algorithms.
@@ -68,15 +65,15 @@ namespace backtracking {
          * @param pos Position in the Hamiltonian Cycle.
          * @returns @param bool Return bool whether the vector can be partitioned or not.
          *******************************************************************************/
-        bool hamCycleUtil(const std::vector<std::vector<bool>>& graph, std::vector<int> path, int pos)
+        bool hamCycleUtil(const std::vector<std::vector<bool>>& graph, std::vector<int>& path, int pos)
         {
             // base case: If all vertices are included in Hamiltonian Cycle
-            if (pos == V) {
+            if (pos == 5) {
                 return graph[path[pos - 1]][path[0]] == 1;
             }
             // Try different vertices as a next candidate in Hamiltonian Cycle.
             // We don't try for 0 as we included 0 as starting point in hamCycle()
-            for (int v = 1; v < V; v++)
+            for (int v = 1; v < 5; v++)
             {
                 // Check if this vertex can be added to Hamiltonian Cycle
                 if (isSafe(v, graph, path, pos))
@@ -108,8 +105,8 @@ namespace backtracking {
         {
             std::vector<std::vector<bool>> result;
             result = graph;
-            int *path = new int[V];
-            for (int i = 0; i < V; i++) path[i] = -1;
+            int *path = new int[5];
+            for (int i = 0; i < 5; i++) path[i] = -1;
 
             /* Let us put vertex 0 as the first vertex in the path. If there is a
             Hamiltonian Cycle, then the path can be started from any point of the
@@ -129,10 +126,7 @@ namespace backtracking {
          *******************************************************************************/
         std::vector<int> resizeSolution(const std::vector<int>& path)
         {
-            std::vector<int> res;
-            for (int i = 0; i < V; ++i) {
-                res.push_back(path[i]);
-            }
+            std::vector<int> res(path.begin(),  path.begin() + 5);
             res.push_back(res[0]);
             return res;
         }
