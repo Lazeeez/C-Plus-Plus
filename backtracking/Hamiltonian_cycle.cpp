@@ -40,8 +40,7 @@ namespace backtracking {
  *******************************************************************************/
     namespace hamiltonianCycle {
 
-        std::vector<int> resizeSolution(std::vector<int>& path);
-
+        std::vector<int> resizeSolution(const std::vector<int>& path);
         /******************************************************************************
          * @brief A utility function to check if the vertex v can be added at index 'pos'
          * in the Hamiltonian Cycle constructed so far (stored in vector 'path').
@@ -51,7 +50,7 @@ namespace backtracking {
          * @param pos Position in the Hamiltonian Cycle.
          * @returns @param bool Return bool whether the vector can be partitioned or not.
          *******************************************************************************/
-        bool isSafe(int v, std::vector<std::vector<bool>>& graph, std::vector<int>& path, int pos)
+        bool isSafe(int v, const std::vector<std::vector<bool>>& graph, const std::vector<int>& path, int pos)
         {
             // Check if this vertex is an adjacent vertex of the previously added vertex.
             if (graph [path[pos - 1]][ v ] == 0) return false;
@@ -69,7 +68,7 @@ namespace backtracking {
          * @param pos Position in the Hamiltonian Cycle.
          * @returns @param bool Return bool whether the vector can be partitioned or not.
          *******************************************************************************/
-        bool hamCycleUtil(std::vector<std::vector<bool>>& graph, std::vector<int>& path, int pos)
+        bool hamCycleUtil(const std::vector<std::vector<bool>>& graph, std::vector<int> path, int pos)
         {
             // base case: If all vertices are included in Hamiltonian Cycle
             if (pos == V) {
@@ -105,8 +104,10 @@ namespace backtracking {
          * @param graph Original graph.
          * @returns @param vector Return a Vector that that has the Hamiltonian Path.
          *******************************************************************************/
-        std::vector<int> hamCycle(std::vector<std::vector<bool>>& graph)
+        std::vector<int> hamCycle(const std::vector<std::vector<bool>>& graph)
         {
+            std::vector<std::vector<bool>> result;
+            result = graph;
             int *path = new int[V];
             for (int i = 0; i < V; i++) path[i] = -1;
 
@@ -114,7 +115,7 @@ namespace backtracking {
             Hamiltonian Cycle, then the path can be started from any point of the
             cycle as the graph is undirected */
             path[0] = 0;
-            if (!hamCycleUtil(graph, reinterpret_cast<std::vector<int> &>(path), 1)) {
+            if (!hamCycleUtil(result, reinterpret_cast<std::vector<int> &>(path), 1)) {
                 return {};
             }
 
@@ -126,11 +127,14 @@ namespace backtracking {
          * @param path Hamiltonian Cycle constructed so far.
          * @returns @param vector Return a Vector that that has the Hamiltonian Path.
          *******************************************************************************/
-        std::vector<int> resizeSolution(std::vector<int>& path)
+        std::vector<int> resizeSolution(const std::vector<int>& path)
         {
-            path.resize(V);
-            path.push_back(path[0]);
-            return path;
+            std::vector<int> res;
+            for (int i = 0; i < V; ++i) {
+                res.push_back(path[i]);
+            }
+            res.push_back(res[0]);
+            return res;
         }
     }   //namespace hamiltonianCycle
 }   //namespace backtracking
@@ -141,11 +145,11 @@ namespace backtracking {
  *******************************************************************************/
 static void test() {
 /* Let us create the following graph
-    (0)---(1)---(2)
-     |   /  \   |
-     |  /    \  |
-     | /      \ |
-    (3)-------(4)
+    (0)-(1)-(2)
+     |  / \  |
+     | /   \ |
+     |/     \|
+    (3)----(4)
 */
     std::vector<std::vector<bool>> graph1
             {
