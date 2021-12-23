@@ -146,12 +146,12 @@ var NAVTREEINDEX =
 "d6/d42/data__structures_2sparse__table_8cpp.html#a10f3ffb3f6f7e1b83d556b9c8de89a5d",
 "d7/d7c/classstatistics_1_1stats__computer1.html#af57e942d49f4fd70f059f224b4ac07e1",
 "d8/d9c/union__of__two__arrays_8cpp.html#aa8dca7b867074164d5f45b0f3851269d",
-"d9/dfd/comb__sort_8cpp.html#aede08143e63105faba10e9ee8e745fd5",
-"db/d27/n__bonacci_8cpp.html#a6849b68f760be628d5975ab3eddec63d",
-"dc/d82/area_8cpp.html#ab7f29862d30df351c317eedd60a0c656",
-"dd/d9c/classmachine__learning_1_1aystar__search_1_1_eight_puzzle.html#aa73857052e69b86347859d9148933f71",
-"df/d34/classprobability_1_1windowed__median_1_1_windowed_median.html#a61804988fcb1a6caf640f8291979aaa6",
-"namespacemembers_type.html"
+"d9/df7/structothers_1_1recursive__tree__traversals_1_1_node.html#a5a8a7bc2d2f847994220ae9e0b60fff3",
+"db/d16/0__1__knapsack_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4",
+"dc/d6d/structstd_1_1is__arithmetic_3_01uint256__t_01_4.html",
+"dd/d9c/classmachine__learning_1_1aystar__search_1_1_eight_puzzle.html#a94f794bf44f424b1b0ca6ef9f4f6ebd3",
+"df/d2c/elliptic__curve__key__exchange_8cpp.html#ac00616a4e40d3cd5cfb4da87d9ff9af0",
+"hierarchy.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
